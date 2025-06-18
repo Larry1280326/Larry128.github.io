@@ -8,7 +8,7 @@ const projectsData = [
   {
     id: 1,
     title: "React Personal Website (This Website!)",
-    description: "A website for introduction myself!",
+    description: "A website for introducing myself!",
     image: "/images/projects/personal_website.png",
     tag: ["All", "Web"],
     gitUrl: "/",
@@ -26,7 +26,7 @@ const projectsData = [
   {
     id: 3,
     title: "Employing Word Embeddings and Machine Learning For Effective Fake News Detection",
-    description: "Team project for HKUST COMP4211 Machine Learning",
+    description: "Team project for HKUST COMP4211 Machine Learning.",
     image: "/images/projects/comp4211.png",
     tag: ["All", "NLP"],
     gitUrl: "https://github.com/Larry1280326/COMP4211-Project/blob/main/code.ipynb",
@@ -35,7 +35,7 @@ const projectsData = [
   {
     id: 4,
     title: "Tetris with C++",
-    description: "A tetris game made with C/ C++",
+    description: "A tetris game made with C/ C++.",
     image: "/images/projects/tetris.png",
     tag: ["All", "Miscellaneous"],
     gitUrl: "https://github.com/Larry1280326/tetris-with-c-plus-plus",
