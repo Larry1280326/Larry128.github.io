@@ -29,8 +29,8 @@ const projectsData = [
     description: "Team project for HKUST COMP4211 Machine Learning",
     image: "/images/projects/comp4211.png",
     tag: ["All", "NLP"],
-    gitUrl: "https://github.com/Larry1280326/larry128_blog/blob/main/src/comp4211/code.ipynb",
-    previewUrl: "https://github.com/Larry1280326/larry128_blog/blob/main/src/comp4211/report.pdf",
+    gitUrl: "https://github.com/Larry1280326/COMP4211-Project/blob/main/code.ipynb",
+    previewUrl: "https://github.com/Larry1280326/COMP4211-Project/blob/main/report.pdf",
   },
   {
     id: 4,
