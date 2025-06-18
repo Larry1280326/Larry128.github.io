@@ -41,6 +41,15 @@ const projectsData = [
     gitUrl: "https://github.com/Larry1280326/tetris-with-c-plus-plus",
     previewUrl: "https://github.com/Larry1280326/tetris-with-c-plus-plus",
   },
+    {
+    id: 5,
+    title: "LaTeX Notes for HKUST courses",
+    description: "The comprehensive Notes written in LaTeX for courses that I have taken at HKUST.",
+    image: "/images/projects/LaTeX.png",
+    tag: ["All", "Miscellaneous"],
+    gitUrl: "https://github.com/Larry1280326/my-latex-notes",
+    previewUrl: "https://github.com/Larry1280326/my-latex-notes/blob/main/readme.md",
+  },
 //   {
 //     id: 5,
 //     title: "React Firebase Template",
@@ -90,6 +99,11 @@ const ProjectsSection = () => {
           onClick={handleTagChange}
           name="NLP"
           isSelected={tag === "NLP"}
+        />
+        <ProjectTag
+          onClick={handleTagChange}
+          name="Miscellaneous"
+          isSelected={tag === "Miscellaneous"}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
